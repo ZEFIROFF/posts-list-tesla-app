@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: 'Lato', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #4741fc;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #0d6efd;
+}
+
+.post {
+    max-width: 24rem;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
+}
+
+.add-post input, .add-post textarea {
+    border: 1px solid #0d6efd;
+}
+.card-link{
+    cursor: pointer;
+}
+.card-more a {
+    cursor: pointer;
+}
+
+.navbar-background {
+    background-color: white;
+}
+
+.navbar-background li {
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #ffffff;
+}
+
+.navbar-background li:hover {
+    border-bottom: 2px solid #0d6efd;
+}
+
+.page-not-found {
+    font-size: 750px;
+    color: #3887ff;
+    margin-top: -200px;
 }
