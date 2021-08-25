@@ -1,3 +1,3 @@
-ALL POSTS GET "https://github.com/d3pii/posts-list-tesla-app.git" IS API
+ALL POSTS GET "https://newsapi.org" IS API
 
  *I have no copyright for these posts*
